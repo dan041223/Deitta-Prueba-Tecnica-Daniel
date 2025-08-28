@@ -26,9 +26,9 @@ La aplicación consiste en:
 ## 📋 Tests
 
 - Incluye tests unitarios y de widgets para:
-- Renderizado correcto del listado y detalle de notificaciones.
-- Cambio de estado al marcar como leído.
-- Manejo de errores al cargar y parsear JSON.
+
+  - Renderizado correcto del listado y detalle de notificaciones.
+  - Cambio de estado al marcar como leído.
 
 - Ejecutar todos los tests:
 
@@ -51,37 +51,6 @@ flutter test
   - Exception → Otros errores genéricos.
 
 - En caso de error, retorna una lista vacía ([]).
-
----
-
-## 📂 Estructura del proyecto
-
-```bash
-data/
- └── data.json                     # Archivo JSON con las notificaciones
-
-lib/
- ├── main.dart                     # Ventana principal
- ├── notification_page.dart        # Página de detalle de notificación
- ├── notifications_page.dart       # Página de listado de notificaciones
-
- ├── appBar/
- │    ├── appbar_notifications.dart
- │    ├── back_button_appbar.dart
- │    └── notification_button_appbar.dart
-
- ├── enums/
- │    └── group.dart               # Enumeraciones usadas en la app
-
- ├── functions/
- │    └── json_functions.dart      # Funciones para cargar y parsear JSON
-
- └── models/
-      └── notification_item.dart   # Modelo de notificación
-
-test/
- └── notification_test.dart        # Tests unitarios y de widgets
-```
 
 ---
 
