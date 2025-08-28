@@ -1,0 +1,52 @@
+ {
+"notifications": [
+{
+"id": "F8CEBC71-879D-4E1C-A263-25BC6ECE4F58",
+"isRead": false,
+"title": "Promoción especial",
+"description": "¡Descuento del 20% en productos premium!",
+"timestamp": "2025-01-15T08:30:00Z",
+"group": "today"
+},
+{
+"id": "F8CEBC71-879D-4E1C-A263-25BC6ECE4F18",
+"isRead": true,
+"title": "Nueva actualización disponible",
+"description": "Se ha lanzado la versión 2.1.0 con nuevas funcionalidades",
+"timestamp": "2025-01-15T09:00:00Z",
+"group": "today"
+},
+{
+"id": "F8CEBC71-879D-4E1C-A263-25BC6ECE4F52",
+"isRead": false,
+"title": "Mantenimiento programado",
+"description": "El sistema estará en mantenimiento este domingo",
+"timestamp": "2025-01-12T10:00:00Z",
+"group": "last7Days"
+},
+{
+"id": "F8CEBC71-879D-4E1C-A263-25BC6ECE4F53",
+"isRead": true,
+"title": "Nuevo contenido disponible",
+"description": "Hemos agregado 50 nuevos datasets a la plataforma",
+"timestamp": "2025-01-11T14:20:00Z",
+"group": "last7Days"
+},
+{
+"id": "F8CEBC71-879D-4E1C-A263-25BC6ECE4F54",
+"isRead": true,
+"title": "Recordatorio de facturación",
+"description": "Tu próxima factura será generada el 15 de este mes",
+"timestamp": "2024-12-20T12:00:00Z",
+"group": "last30Days"
+},
+{
+"id": "F8CEBC71-879D-4E1C-A263-25BC6ECE4F55",
+"isRead": false,
+"title": "Bienvenido a Deitta",
+"description": "Gracias por unirte a nuestra plataforma",
+"timestamp": "2024-11-30T16:45:00Z",
+"group": "moreThan30Days"
+}
+]
+}
