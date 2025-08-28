@@ -23,6 +23,30 @@ La aplicación consiste en:
 
 ---
 
+## 🟢 Instrucciones de ejecución
+
+1. Asegúrate de tener Flutter instalado y configurado en tu sistema:
+
+```bash
+flutter --version
+```
+
+2. Abre un emulador o conecta un dispositivo físico (Android/iOS).
+3. Navega al directorio del proyecto.
+4. Instala las dependencias:
+
+```bash
+flutter pub get
+```
+
+5. Ejecuta la aplicación:
+
+```bash
+flutter run
+```
+
+---
+
 ## 📋 Tests
 
 - Incluye tests unitarios y de widgets para:
