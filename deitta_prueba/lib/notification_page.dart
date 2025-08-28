@@ -45,11 +45,6 @@ class _NotificationPageState extends State<NotificationPage> {
               width: double.infinity,
               child: ElevatedButton(
                 onPressed: () {
-                  widget.notification.isRead
-                      ? null
-                      : setState(() {
-                          widget.notification.isRead = true;
-                        });
                   // acción al marcar como leído
                   ScaffoldMessenger.of(context).showSnackBar(
                     widget.notification.isRead
@@ -62,6 +57,11 @@ class _NotificationPageState extends State<NotificationPage> {
                             content: Text('Notificación marcada como leída'),
                           ),
                   );
+                  widget.notification.isRead
+                      ? null
+                      : setState(() {
+                          widget.notification.isRead = true;
+                        });
                 },
 
                 style: ElevatedButton.styleFrom(
